@@ -1,0 +1,32 @@
+-git config –gloable user.email “email or name”
+-git config –gloable user.email
+-create local repo 
+git init 
+-git status
+- transfer  from  work dirctory to  stage area .
+ git add filename.exantion  or git add .
+-upload file form atage area  to local repo
+git commit –m” comment  by your  work ” 
+-git  log  ده هيعرفك   تاريج وصاحب  ال      
+-undo commit  
+-git revert  coomitID
+-create branch 
+git branch auth
+-go to branch
+git checkout auth
+-create branch and go to  this branch 
+git checkout -b  Name
+
+-marge
+git merge brabchName
+
+-delete branch 
+git branch -d branchName 
+
+--know all branch  you have 
+   git  branch -a
+
+-dowload remot repo 
+git clone remote repo link
+
+
