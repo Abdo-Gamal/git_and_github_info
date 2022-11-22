@@ -13,7 +13,7 @@ git commit –m” comment  by your  work ”
 -create branch 
 git branch auth
 -go to branch
-git checkout auth
+git checkout branchName or git checkout origin/branchName 
 -create branch and go to  this branch 
 git checkout -b  Name
 
@@ -29,4 +29,9 @@ git branch -d branchName
 -dowload remot repo 
 git clone remote repo link
 
+
+-transfer data from local repo to remote repo
+Git push  or git push origin branchName
+-dowload work of my team 
+    git pull
 
