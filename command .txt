@@ -1,4 +1,4 @@
--git config –gloable user.email “email or name”
+-git config --global user.name  “email or name”
 -git config –gloable user.email
 -create local repo 
 git init 
@@ -34,4 +34,43 @@ git clone remote repo link
 Git push  or git push origin branchName
 -dowload work of my team 
     git pull
+
+=========================other info from other vedio 
+-show details of commit  " change in details "
+git show  + id 
+-go  to old commit 
+-git checkout + commitID 
+
+=============================git hub commmand
+
+git remote add origin httpsLink
+
+ git remote   
+
+  git remote -v
+
+git push origin master or  git push origin main 
+
+git pull  origin master
+git remove rm varubleName
+=============================================================undo change
+git revert commitID
+-to  close window show after  revert command 
+:wq
+
+=================================shh
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+================================branches 
+git log --oneline --graph 
+git chechout branch name 
+git branch branchName
+git branch 
+
+=================================tag
+git tag commitID
+git tag  
+git push origin tagName 
+
+
 
